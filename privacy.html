@@ -8,9 +8,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Monoton&family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-
 </head>
 <body>
 <div class="container">
@@ -21,13 +20,14 @@
     <h1 class="wordmark">GAMEDAY GATHOS</h1>
     <div class="kicker">LAST CALL · LEGAL · 01</div>
     <h2 class="hero-title pink">PRIVACY POLICY</h2>
-    <div class="effective">EFFECTIVE 2026 · 06 · 08</div>
+    <div class="effective">EFFECTIVE 2026 · 06 · 15</div>
   </header>
 
   <nav class="toc pink" aria-label="Table of contents">
     <div class="toc-title">CONTENTS</div>
     <div class="toc-columns">
       <a href="#info-collection">Information Collection</a>
+      <a href="#sharing-users">Visible to Other Users</a>
       <a href="#retention">Data Retention</a>
       <a href="#cookies">Cookies &amp; Tracking</a>
       <a href="#children">Children</a>
@@ -52,27 +52,50 @@
     <p>This privacy policy applies to the Game Day Gatho's app for mobile devices, together with any related services operated by Adam Guinea (collectively, the "Application"). Adam Guinea is hereby referred to as the "Service Provider".</p>
 
     <span id="info-collection" class="subsection">INFORMATION COLLECTION &amp; USE</span>
-    <p>The Application collects information when you download and use it. This information may include:</p>
+    <p>To provide the Application's core features — creating and joining map-pinned watch parties and chatting in event threads — the Service Provider collects the following information.</p>
+
+    <p><strong>Information you provide directly:</strong></p>
     <ul>
-      <li>Your device's Internet Protocol address</li>
-      <li>The pages of the Application that you visit, the time and date of your visit, the time spent on those pages</li>
-      <li>The time spent on the Application</li>
-      <li>The mobile operating system you use</li>
+      <li><strong>Account information</strong> — your email address. If you sign in with Google or Apple, the Service Provider also receives your display name and, where available, a profile photo from that provider. Apple may relay a private email address if you choose to hide your email.</li>
+      <li><strong>Profile information</strong> — a nickname and a favorite sport that you set and can edit at any time in the app.</li>
+      <li><strong>Content you create</strong> — watch-party events (including the topic, description, date/time, and the map location you choose for the event) and the messages you send in event chat threads.</li>
+      <li><strong>Safety and moderation data</strong> — if you block another user, the Service Provider stores a record of that choice (the blocked user's identifier and nickname) to enforce it. If you report content, the Service Provider stores the report, including a copy of the reported content, so it can be reviewed and acted upon.</li>
     </ul>
 
+    <p><strong>Information collected automatically:</strong></p>
+    <ul>
+      <li><strong>Location</strong> — see the Location Information section below.</li>
+      <li><strong>Technical and device data</strong> — when the Application communicates with its backend services (provided by Google Firebase), standard technical information such as your device's Internet Protocol (IP) address, device type, and operating system may be processed to deliver and secure the service. The Application also uses Apple App Attest and Google Play Integrity to verify that requests come from a genuine, untampered app.</li>
+    </ul>
+    <p>The Service Provider does not use third-party advertising, and does not run analytics or crash-reporting SDKs that track the pages you view or the time you spend in the Application.</p>
+
+    <span id="sharing-users" class="subsection">INFORMATION VISIBLE TO OTHER USERS</span>
+    <p>Gameday Gathos is a social application. By design, certain information is visible to other users:</p>
+    <ul>
+      <li>Your <strong>nickname</strong> is shown on events you host or join, on your chat messages, and to anyone you block (so they can be informed they were blocked, where applicable).</li>
+      <li>Events you create — including the <strong>topic, description, date/time, and map location</strong> — are visible to all signed-in users so they can discover and join nearby watch parties.</li>
+      <li>Messages you send in an event chat are visible to the other participants of that event.</li>
+    </ul>
+    <p>Please do not post personal information about yourself or others that you do not want to be visible to other users.</p>
+
     <span id="cookies" class="subsection">COOKIES &amp; TRACKING TECHNOLOGIES</span>
-    <p>The Application or its third-party SDKs may use cookies, SDKs, pixels, and similar technologies to support functionality, analytics, or service delivery. Where required by applicable law, the Service Provider will obtain consent before using non-essential tracking technologies.</p>
+    <p>The Application does not use cookies or advertising/tracking technologies. The third-party SDKs it relies on (such as Google Firebase) may store identifiers on your device that are necessary to authenticate you, secure requests, and operate the service. Where required by applicable law, the Service Provider will obtain consent before using any non-essential tracking technologies, which the Application does not currently use.</p>
 
     <span id="location" class="subsection">LOCATION INFORMATION</span>
-    <p>The Application collects your device's location to provide location-based features, improve the Application, and support related services.</p>
+    <p>The Application uses location in two distinct ways:</p>
     <ul>
-      <li><strong>Geolocation Services</strong> — The Service Provider may use location data to provide location-based features or content.</li>
-      <li><strong>Analytics and Improvements</strong> — Aggregated location data may help the Service Provider understand usage patterns and improve performance.</li>
-      <li><strong>Third-Party Services</strong> — Location data may be shared with third-party services used to support Application functionality, subject to this privacy policy and applicable law.</li>
+      <li><strong>Your device location (foreground only)</strong> — with your permission, the Application requests your device's location <em>while you are using the app</em> ("when in use") solely to center the map on watch parties near you. The Application does not collect or track your location in the background. You can decline this permission; the map still works, it simply won't auto-center on you.</li>
+      <li><strong>Event locations you choose</strong> — when you create a watch party, you select a location for the event (assisted by the Google Places service for address suggestions). That chosen location is stored with the event and, as described above, is visible to other users so they can find and join the party. This is a location you deliberately publish, not a record of where you are.</li>
     </ul>
 
     <span id="your-rights" class="subsection">YOUR RIGHTS</span>
-    <p>You may request access to, correction of, or deletion of your personal data held by the Service Provider. To exercise these rights, or to withdraw consent where processing is based on consent, contact the Service Provider at the email below.</p>
+    <p>You can exercise several of your rights directly within the Application:</p>
+    <ul>
+      <li><strong>Correction</strong> — you can edit your nickname and favorite sport at any time from the Profile screen.</li>
+      <li><strong>Deletion</strong> — you can permanently delete your account from the Profile screen (under "Danger Zone"). This deletes your account and profile information (email, display name, photo, nickname, favorite sport) and your block list. Content you have already posted — watch-party events you created and messages you sent — may remain visible to other users after deletion; contact the Service Provider if you need that content removed as well.</li>
+      <li><strong>Blocking</strong> — you can block and unblock other users from a watch party's detail screen and manage your block list in the app.</li>
+    </ul>
+    <p>You may also request access to, correction of, or deletion of your personal data, or withdraw consent where processing is based on consent, by contacting the Service Provider at the email below.</p>
     <div class="contact-line">→ <a href="mailto:gamedaygathos@gmail.com">gamedaygathos@gmail.com</a></div>
 
     <span id="ccpa" class="subsection">CALIFORNIA PRIVACY RIGHTS (CCPA / CPRA)</span>
@@ -81,7 +104,13 @@
     <p>For a better experience while using the Application, the Service Provider may require you to provide certain personally identifiable information, including but not limited to email. The information the Service Provider requests will be retained and used as described in this privacy policy.</p>
 
     <span id="third-party" class="subsection">THIRD PARTY ACCESS</span>
-    <p>Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.</p>
+    <p>The Application relies on trusted third-party service providers to operate. These providers process your personal data on the Service Provider's behalf, as data processors, only to deliver the service — not for their own independent purposes:</p>
+    <ul>
+      <li><strong>Google Firebase (Authentication, Cloud Firestore, App Check)</strong> — stores your account, profile, events, chat messages, block list, and reports, and authenticates your sign-in. Your personal data and content are stored on Google's infrastructure.</li>
+      <li><strong>Google Sign-In and Sign in with Apple</strong> — used, at your choice, to authenticate you and provide your name/email/photo.</li>
+      <li><strong>Google Maps / Places</strong> — used to display the map and suggest locations when you create an event.</li>
+    </ul>
+    <p>Beyond these providers, the Service Provider does not sell your personal data and shares it only as described in this privacy statement.</p>
 
     <span id="international" class="subsection">INTERNATIONAL DATA TRANSFERS</span>
     <p>The Service Provider or its third-party service providers may transfer personal data to countries outside your country of residence, including outside the European Economic Area (EEA). Where applicable law requires safeguards for international transfers, the Service Provider will use appropriate mechanisms:</p>
@@ -94,9 +123,9 @@
 
     <p>Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:</p>
     <ul>
-      <li><a href="https://www.google.com/policies/privacy/">Google Play Services</a></li>
-      <li><a href="https://firebase.google.com/support/privacy">Google Analytics for Firebase</a></li>
-      <li><a href="https://firebase.google.com/support/privacy/">Firebase Crashlytics</a></li>
+      <li><a href="https://firebase.google.com/support/privacy">Google Firebase (Authentication, Firestore, App Check)</a></li>
+      <li><a href="https://policies.google.com/privacy">Google (Sign-In, Maps &amp; Places)</a></li>
+      <li><a href="https://www.apple.com/legal/privacy/">Sign in with Apple</a></li>
       <li><a href="https://expo.io/privacy">Expo</a></li>
     </ul>
 
@@ -114,10 +143,10 @@
     <span id="retention" class="subsection">DATA RETENTION POLICY</span>
     <p>The Service Provider retains personal data based on its necessity for the stated purposes:</p>
     <ul>
-      <li><strong>User Provided Data</strong> — Retained for the duration of your use of the Application plus 12 months thereafter, unless longer retention is required by law</li>
-      <li><strong>Automatically Collected Data</strong> — Retained for up to 24 months from collection, unless longer retention is required for legal compliance</li>
-      <li><strong>Aggregated and Anonymized Data</strong> — Retained indefinitely as it no longer identifies you</li>
-      <li><strong>Data required for legal compliance</strong> — Retained as long as required by applicable law</li>
+      <li><strong>Account and profile data</strong> (email, display name, photo, nickname, favorite sport) and your <strong>block list</strong> — retained while your account exists and deleted promptly when you delete your account in-app.</li>
+      <li><strong>Content you posted</strong> (events you created, chat messages you sent) — retained while it remains relevant to other users; it may persist after you delete your account. Contact the Service Provider to request its removal.</li>
+      <li><strong>Moderation and safety records</strong> (reports) — retained as needed to keep the service safe and to comply with legal obligations.</li>
+      <li><strong>Data required for legal compliance</strong> — retained as long as required by applicable law.</li>
     </ul>
     <p>You may request deletion of your personal data, subject to any legal obligation to retain it. If you want the Service Provider to delete User Provided Data submitted through the Application, please contact them at gamedaygathos@gmail.com. Please note that some User Provided Data may be required for the Application to function properly.</p>
 
@@ -135,7 +164,7 @@
     <p>The Service Provider may update this Privacy Policy from time to time. The Service Provider will notify you of material changes by posting the updated Privacy Policy with an effective date. Where required by law, the Service Provider will seek your consent to material changes before they take effect.</p>
     <p>Previous versions of this Privacy Policy will be maintained and made available upon request by contacting the Service Provider at gamedaygathos@gmail.com.</p>
 
-    <div class="callout"><strong>EFFECTIVE DATE</strong>This privacy policy is effective as of 2026-06-08.</div>
+    <div class="callout"><strong>EFFECTIVE DATE</strong>This privacy policy is effective as of 2026-06-15.</div>
 
     <span id="consent" class="subsection">YOUR CONSENT</span>
     <p>Where processing is based on consent, you provide that consent by affirmatively opting in to the relevant feature or action. You may withdraw consent at any time without affecting processing carried out before withdrawal. Processing based on other lawful bases is carried out as described above.</p>
